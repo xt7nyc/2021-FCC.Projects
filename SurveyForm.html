@@ -50,29 +50,32 @@
     <!--User Story #6: If I enter an email that is not formatted correctly, I will see an HTML5 validation error.-->
     <label id='email-label'>Email<strong class='redstart'>*</strong></label>
     <input type='email' id='email' placeholder='Please enter your email address.' required>
-    
+    <br>
     <!--User Story #7: Inside the form, I can enter a number in a field with id="number".-->
     <!--User Story #8: If I enter non-numbers in the number input, I will see an HTML5 validation error.-->
     <!--User Story #9: If I enter numbers outside the range of the number input, which are defined by the min and max attributes, I will see an HTML5 validation error.-->
-    <label id='number-label'>Number</label>
-    <input tpye='number' id='number' placeholder='Please enter the store number shown in the receipt.' min='' max=''>
+    <label id='number-label'>Store #</label>
+    <input tpye='number' id='number' size='40px' placeholder='Please enter the store number shown in the receipt.' min='' max=''>
 
     <!---->
     <!---->
     <!--User Story #12: Inside the form element, I can select an option from a dropdown that has a corresponding id="dropdown".-->
-    <p>Dropdown question description <strong class='redstart'>*</strong></p>
+    <p>Tell us how we did when you visited. <strong class='redstart'>*</strong></p>
     <select id='dropdown' required>
-        <option name='' value='1'>option 1</option>
-        <option name='' value='2'>option 2</option>
-        <option name='' value='3'>option 3</option>
+        <option name='' value='1'>Can't be more satisfied</option>
+        <option name='' value='2'>Somehow satisified</option>
+        <option name='' value='3'>Just so so</option>
+        <option name='' value='4'>Somehow unsatisfied</option>
+        <option name='' value='5'>Can't be more unsatisfied</option>
     </select>
+    <br>
     
     <!---->
     <!---->
     <!--User Story #13: Inside the form element, I can select a field from one or more groups of radio buttons. Each group should be grouped using the name attribute.-->
-    <input type='radio' class='radio' name='radio' value='1'>1
-    <input type='radio' class='radio' name='radio' value='2'>2
-    <input type='radio' class='radio' name='radio' value='3'>3
+    <input type='radio' class='radio' name='radio' value='a'>I bought what I was looking for.
+    <input type='radio' class='radio' name='radio' value='b'>I was just hanging around.
+    <input type='radio' class='radio' name='radio' value='c'>I didn't find what I expeceted.
 
     <!---->
     <!---->
