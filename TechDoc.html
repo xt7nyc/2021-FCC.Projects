@@ -19,10 +19,10 @@
         border-right: solid;
         border-color: gray;
         border-width: 2px;
-        width: 200px;
+        width: 370px;
         height: 100%;
         position: fixed;
-        background: rgba(240,240,240,0.5);
+        background: rgb(160, 160, 160);
     }
     /*User Story #15: My Technical Documentation page should use at least one media query.*/
     @media (min-width: 1024px) {
@@ -37,7 +37,24 @@
 
     #main-doc {
         position: absolute;
-        margin-left: 220px; /*navbar width=200px*/
+        margin-left: 420px; /*navbar width=370px*/
+    }
+    
+    #navbar a {
+        color: white;
+        font-weight: 550;
+        font-size: 25px;
+    }
+    #navbar header {
+        font-size: 50px;
+        font-weight: 550;
+    }
+    .copyright {
+        font-size: 12px;
+    }
+    #main-doc header {
+        font-size: 40px;
+        font-weight: 550;
     }
 </style>
 <!--User Story #8: I can see a nav element with a corresponding id="navbar".-->
@@ -152,5 +169,6 @@
         <p>The output of the code above is:</p>
         <label>Name</label>
         <input type='text' placeholder="Your name">
+        <p class='copyright'><br>&copy; Xavier T. reserves the copyright and the right of explanation.</p>
     </section>
 </main>
